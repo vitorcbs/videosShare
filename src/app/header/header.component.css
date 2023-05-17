@@ -1,0 +1,18 @@
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista-esquerda{
+  display: flex;
+  gap: 3em;
+}
+
+.lista-meio, .lista-direita{
+  margin-right: 3em;
+}
+
+.lista-meio, .lista-direita, .lista-esquerda{
+  padding: 1.5em;
+}
