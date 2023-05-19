@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { VideoListComponent } from './video-list/video-list.component';
-import { FavouriteVideosComponent } from './favourite-videos/favourite-videos.component';
-import { UpdateVideoComponent } from './update-video/update-video.component';
+import { VideoListComponent } from './modules/videos/video-list/video-list.component';
+import { FavouriteVideosComponent } from './modules/videos/favourite-videos/favourite-videos.component';
+import { UpdateVideoComponent } from './modules/videos/update-video/update-video.component';
 
 @NgModule({
   declarations: [
