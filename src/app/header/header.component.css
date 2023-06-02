@@ -1,18 +1,42 @@
 header {
-  background-color: blueviolet;
+  background-color: #282a3a;
   display: flex;
   justify-content: space-between;
 }
 
-.lista-esquerda{
+.lista-esquerda {
   display: flex;
   gap: 3em;
 }
 
-.lista-meio, .lista-direita{
+.lista-meio,
+.lista-direita {
   margin-right: 3em;
 }
 
-.lista-meio, .lista-direita, .lista-esquerda{
+.lista-meio,
+.lista-direita,
+.lista-esquerda {
   padding: 1.5em;
+}
+
+li {
+  cursor: pointer;
+}
+
+header li:hover {
+  animation: blink-1 0.6s both;
+  color: antiquewhite;
+}
+
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
