@@ -22,11 +22,15 @@ header {
 
 li {
   cursor: pointer;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 header li:hover {
-  animation: blink-1 0.6s both;
+  animation: blink-1 0.3s both;
   color: antiquewhite;
+  background-color: black;
+  border-radius: 15px;
 }
 
 @keyframes blink-1 {
